@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>No Name (add projectName to cucumber-reporting.properties)</td>
+      <td>23 Jun 2025, 20:43</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.micro.steps.Hooks.runAfterScenario()</td>
+              <td>9</td>
+              <td class="duration" data-value="185311">0.000</td>
+              <td class="duration" data-value="185311">0.001</td>
+              <td class="duration" data-value="1667800">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.Hooks.runAfterTagScenario()</td>
+              <td>2</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.Hooks.runBeforeScenario()</td>
+              <td>9</td>
+              <td class="duration" data-value="117788">0.000</td>
+              <td class="duration" data-value="117788">0.001</td>
+              <td class="duration" data-value="1060100">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.Hooks.runBeforeTagScenario()</td>
+              <td>2</td>
+              <td class="duration" data-value="497950">0.000</td>
+              <td class="duration" data-value="497950">0.000</td>
+              <td class="duration" data-value="995900">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_AddToCard()</td>
+              <td>2</td>
+              <td class="duration" data-value="3335848200">3.335</td>
+              <td class="duration" data-value="3335848200">3.353</td>
+              <td class="duration" data-value="6671696400">6.671</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_All_service_Repair()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Apple_Certified_Repair()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Apple_TV()</td>
+              <td>2</td>
+              <td class="duration" data-value="838591950">0.838</td>
+              <td class="duration" data-value="838591950">1.426</td>
+              <td class="duration" data-value="1677183900">1.677</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Brands_we_service()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_CheckOut()</td>
+              <td>2</td>
+              <td class="duration" data-value="3928191950">3.928</td>
+              <td class="duration" data-value="3928191950">4.234</td>
+              <td class="duration" data-value="7856383900">7.856</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Computer_Repair()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Custom_Bill_PCS()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Data_Recovery()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_GPU_Trade_in_Program()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Laptop_Battery_Replacement()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Laptop_Screen_replacement()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Recycling_Program()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Schedule_service()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Service_FAQs()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_ViewCard()</td>
+              <td>2</td>
+              <td class="duration" data-value="3594079750">3.594</td>
+              <td class="duration" data-value="3594079750">4.084</td>
+              <td class="duration" data-value="7188159500">7.188</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_Virus_Removal()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_sign_in_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="199017400">0.199</td>
+              <td class="duration" data-value="199017400">0.199</td>
+              <td class="duration" data-value="199017400">0.199</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.click_on_signin_again()</td>
+              <td>3</td>
+              <td class="duration" data-value="4474925766">4.474</td>
+              <td class="duration" data-value="4474925766">6.651</td>
+              <td class="duration" data-value="13424777300">13.424</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_am_in_Microcenter_home_page()</td>
+              <td>8</td>
+              <td class="duration" data-value="1739150312">1.739</td>
+              <td class="duration" data-value="1739150312">2.510</td>
+              <td class="duration" data-value="13913202500">13.913</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_am_on_the_Micro_Center_PC_Parts_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="341028000">0.341</td>
+              <td class="duration" data-value="341028000">0.341</td>
+              <td class="duration" data-value="341028000">0.341</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_Add_To_Card()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_ApplePage_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="904420150">0.904</td>
+              <td class="duration" data-value="904420150">1.489</td>
+              <td class="duration" data-value="1808840300">1.808</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_Continue_Button()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_SIGN_IN_button()</td>
+              <td>3</td>
+              <td class="duration" data-value="156826766">0.156</td>
+              <td class="duration" data-value="156826766">0.286</td>
+              <td class="duration" data-value="470480300">0.470</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_SignIn_Button()</td>
+              <td>3</td>
+              <td class="duration" data-value="287448266">0.287</td>
+              <td class="duration" data-value="287448266">0.351</td>
+              <td class="duration" data-value="862344800">0.862</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_SignIn_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="242053150">0.242</td>
+              <td class="duration" data-value="242053150">0.364</td>
+              <td class="duration" data-value="484106300">0.484</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_ViewCard()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_add_to_card()</td>
+              <td>1</td>
+              <td class="duration" data-value="2421878000">2.421</td>
+              <td class="duration" data-value="2421878000">2.421</td>
+              <td class="duration" data-value="2421878000">2.421</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_cheackout_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="2306744850">2.306</td>
+              <td class="duration" data-value="2306744850">4.613</td>
+              <td class="duration" data-value="4613489700">4.613</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_checkout_as_guest()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_the_first_intel_CPUS_item()</td>
+              <td>1</td>
+              <td class="duration" data-value="1830510800">1.830</td>
+              <td class="duration" data-value="1830510800">1.830</td>
+              <td class="duration" data-value="1830510800">1.830</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_the_link_from_the_navigation_menu(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2694863600">2.694</td>
+              <td class="duration" data-value="2694863600">2.694</td>
+              <td class="duration" data-value="2694863600">2.694</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_click_on_view_card()</td>
+              <td>1</td>
+              <td class="duration" data-value="4402484700">4.402</td>
+              <td class="duration" data-value="4402484700">4.402</td>
+              <td class="duration" data-value="4402484700">4.402</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_close_the_browser()</td>
+              <td>7</td>
+              <td class="duration" data-value="2839617885">2.839</td>
+              <td class="duration" data-value="2839617885">3.341</td>
+              <td class="duration" data-value="19877325200">19.877</td>
+              <td class="failed">85.71%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_enter_password_as(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="167877233">0.167</td>
+              <td class="duration" data-value="167877233">0.288</td>
+              <td class="duration" data-value="503631700">0.503</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_enter_username_as(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="112866733">0.112</td>
+              <td class="duration" data-value="112866733">0.136</td>
+              <td class="duration" data-value="338600200">0.338</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()</td>
+              <td>9</td>
+              <td class="duration" data-value="8073040344">8.073</td>
+              <td class="duration" data-value="8073040344">9.473</td>
+              <td class="duration" data-value="72657363100">1:12.657</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_put_On_Email_Address()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_put_on_FirstName()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_put_on_LastName()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_put_on_Phone_Number()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_put_on_email_address()</td>
+              <td>1</td>
+              <td class="duration" data-value="81004200">0.081</td>
+              <td class="duration" data-value="81004200">0.081</td>
+              <td class="duration" data-value="81004200">0.081</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_scroll_down_to_the_section(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="30095071100">30.095</td>
+              <td class="duration" data-value="30095071100">30.095</td>
+              <td class="duration" data-value="30095071100">30.095</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_should_see_the_Service_Oder_Status_Logo()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_varify_the_title()</td>
+              <td>1</td>
+              <td class="duration" data-value="23006000">0.023</td>
+              <td class="duration" data-value="23006000">0.023</td>
+              <td class="duration" data-value="23006000">0.023</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.i_verify_the_SignIn_page_title()</td>
+              <td>3</td>
+              <td class="duration" data-value="17095033">0.017</td>
+              <td class="duration" data-value="17095033">0.018</td>
+              <td class="duration" data-value="51285100">0.051</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.next_I_have_to_type_password_as(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="111798050">0.111</td>
+              <td class="duration" data-value="111798050">0.116</td>
+              <td class="duration" data-value="223596100">0.223</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.now_I_have_to_type_username_as(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="105970350">0.105</td>
+              <td class="duration" data-value="105970350">0.111</td>
+              <td class="duration" data-value="211940700">0.211</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.put_on_password()</td>
+              <td>1</td>
+              <td class="duration" data-value="265023800">0.265</td>
+              <td class="duration" data-value="265023800">0.265</td>
+              <td class="duration" data-value="265023800">0.265</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.the_product_should_be_added_to_the_cart_successfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.user_is_on_the_Micro_Center_home_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="1380050600">1.380</td>
+              <td class="duration" data-value="1380050600">1.380</td>
+              <td class="duration" data-value="1380050600">1.380</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.user_navigates_to_the_page(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="3069555800">3.069</td>
+              <td class="duration" data-value="3069555800">3.069</td>
+              <td class="duration" data-value="3069555800">3.069</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.user_selects_G483_Gaming_PC_from_the_list()</td>
+              <td>1</td>
+              <td class="duration" data-value="31793382300">31.793</td>
+              <td class="duration" data-value="31793382300">31.793</td>
+              <td class="duration" data-value="31793382300">31.793</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.micro.steps.StepDefinition.user_selects_from_the_category_filters(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="144984800">0.144</td>
+              <td class="duration" data-value="144984800">0.144</td>
+              <td class="duration" data-value="144984800">0.144</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>59</td>
+            <td>119</td>
+            <td class="duration">1.946</td>
+            <td class="duration">1:12.657</td>
+            <td class="duration">3:51.579</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

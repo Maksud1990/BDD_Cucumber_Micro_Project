@@ -1,0 +1,1736 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8174250100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have to open chrome browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2391760300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Microcenter home page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_am_in_Microcenter_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-06-24T00:39:36.609Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1060100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Varify  ApplePage is working or not",
+        "description": "",
+        "id": "microcenter-apple-page-testing-info;varify--applepage-is-working-or-not;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 319306800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on ApplePage button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_ApplePage_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1426160500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Apple TV",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Apple_TV()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3353327600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on AddToCard",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_AddToCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4084664400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on ViewCard",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_ViewCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3621885900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on CheckOut",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_CheckOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111450100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Now I have to type username as \"\u003cUsername\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUsername\u003e\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.now_I_have_to_type_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116510500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Next I have to type password as \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.next_I_have_to_type_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364541300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on SignIn button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3313063300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I close the browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8412328700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have to open chrome browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1568117600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Microcenter home page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_am_in_Microcenter_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-06-24T00:40:03.915Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Varify  ApplePage is working or not",
+        "description": "",
+        "id": "microcenter-apple-page-testing-info;varify--applepage-is-working-or-not;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1667800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1489533500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on ApplePage button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_ApplePage_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251023400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Apple TV",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Apple_TV()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3318368800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on AddToCard",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_AddToCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3103495100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on ViewCard",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_ViewCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4234498000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on CheckOut",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_CheckOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100490600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Now I have to type username as \"\u003cUsername\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUsername\u003e\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.now_I_have_to_type_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107085600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Next I have to type password as \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.next_I_have_to_type_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119565000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on SignIn button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3303408600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I close the browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Microcenter Apple page testing info",
+    "description": "",
+    "id": "microcenter-apple-page-testing-info",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/micro/features/ApplePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-06-24T00:40:29.946Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User navigates to Computers page, filters by Desktop Computers, and adds a product to the cart",
+        "description": "",
+        "id": "computers-page-functionality-on-micro-center;user-navigates-to-computers-page--filters-by-desktop-computers--and-adds-a-product-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8710733300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have to open chrome browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1380050600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Micro Center home page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.user_is_on_the_Micro_Center_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3069555800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to the \"Computers\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Computers\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.user_navigates_to_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144984800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects \"Gaming Desktop \" from the category filters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gaming Desktop \"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.user_selects_from_the_category_filters(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d137.0.7151.120)\nBuild info: version: \u00274.22.0\u0027, revision: \u0027c5f3146703*\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002719\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [714dc9ab1545348233f27e0d92b2fa5d, clickElement {id\u003df.B1F6C5C88AE6A2FB7BC2DCE6BCC5D14C.d.5701D4DBD07BCFBFE9DC8EAA674F502E.e.41098}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\\Users\\mdrhm\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58741}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58741/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (714dc9ab1545348233f27e0d92b2fa5d)] -\u003e xpath: //div[@class\u003d\u0027crossSellLinkTrunc\u0027][normalize-space()\u003d\u0027G483 Gaming PC\u0027]]\nSession ID: 714dc9ab1545348233f27e0d92b2fa5d\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)\r\n\tat com.micro.pages.ComputersPage.clickOnGammingPCButton(ComputersPage.java:34)\r\n\tat com.micro.steps.StepDefinition.user_selects_G483_Gaming_PC_from_the_list(StepDefinition.java:203)\r\n\tat ✽.User selects G483 Gaming PC from the list(file:///C:/Users/mdrhm/OneDrive/Desktop/OSA0820202325A/BDD_Cucumber_Micro_Project/src/test/java/com/micro/features/ComputersPage.feature:8)\r\n",
+              "duration": 31793382300,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User selects G483 Gaming PC from the list",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.user_selects_G483_Gaming_PC_from_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click on Add To Card",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_Add_To_Card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click on ViewCard",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_ViewCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "i click on cheackout button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_cheackout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I click on checkout as guest",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_checkout_as_guest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I put on FirstName",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_put_on_FirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I put on LastName",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_put_on_LastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I put On Email Address",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_put_On_Email_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I put on Phone Number",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_put_on_Phone_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I click on Continue Button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_Continue_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "The product should be added to the cart successfully",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.the_product_should_be_added_to_the_cart_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computers Page Functionality on Micro Center",
+    "description": "",
+    "id": "computers-page-functionality-on-micro-center",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/micro/features/ComputersPage.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-06-24T00:41:15.052Z",
+        "before": [
+          {
+            "result": {
+              "duration": 995900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeTagScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Microcenter home page title",
+        "description": "",
+        "id": "microcenter-home-page-feature;verify-microcenter-home-page-title",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterTagScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7756428300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have to open chrome browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1566630800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am in Microcenter home page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_am_in_Microcenter_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23006000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I varify the title",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_varify_the_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3325640700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close the browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "MicroCenter Home Page feature",
+    "description": "",
+    "id": "microcenter-home-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/micro/features/MicrocenterHomePage.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-06-24T00:41:27.733Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add the first PC part listed to the cart",
+        "description": "",
+        "id": "browse-and-add-pc-parts-on-micro-center;add-the-first-pc-part-listed-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7379835700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have to open chrome browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1625341800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Microcenter home page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_am_in_Microcenter_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 341028000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Micro Center PC Parts page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_am_on_the_Micro_Center_PC_Parts_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1830510800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the first intel CPUS item",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_the_first_intel_CPUS_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2421878000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on add to card",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_add_to_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4402484700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on view card",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_view_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4613489700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i click on cheackout button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_cheackout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81004200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I put on email address",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_put_on_email_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265023800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Put on password",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.put_on_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199017400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on sign in button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_sign_in_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Browse and add PC Parts on Micro Center",
+    "description": "",
+    "id": "browse-and-add-pc-parts-on-micro-center",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/micro/features/PCPartsPage.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8774596500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have to open chrome browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2510069500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Microcenter home page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_am_in_Microcenter_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-06-24T00:41:50.899Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify Microcenter Sign in is working or not",
+        "description": "",
+        "id": "microcenter-sign-in-validation;verify-microcenter-sign-in-is-working-or-not",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 351336100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on SignIn Button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_SignIn_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3722898400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on signin again",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_signin_again()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18223900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the SignIn page title",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_verify_the_SignIn_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101423900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter username as \"user1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user1\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111167500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password as \"pass1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass1\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286799000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on SIGN IN button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_SIGN_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3304533900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I close the browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6904152900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have to open chrome browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1521869000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Microcenter home page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_am_in_Microcenter_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-06-24T00:42:10.087Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify Microcenter Sign in is working or not",
+        "description": "",
+        "id": "microcenter-sign-in-validation;verify-microcenter-sign-in-is-working-or-not",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 210634400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on SignIn Button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_SignIn_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3050343500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on signin again",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_signin_again()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16058500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify the SignIn page title",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_verify_the_SignIn_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101164700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter username as \"user2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user2\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103700600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter password as \"pass2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass2\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98672000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on SIGN IN button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_SIGN_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3341202000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I close the browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@mytest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7071122000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have to open chrome browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1486132100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Microcenter home page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_am_in_Microcenter_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-06-24T00:42:25.438Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeTagScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify Microcenter Sign in is working or not",
+        "description": "",
+        "id": "microcenter-sign-in-validation;verify-microcenter-sign-in-is-working-or-not",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterTagScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 300374300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on SignIn Button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_SignIn_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6651535400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on signin again",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_signin_again()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17002700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify the SignIn page title",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_verify_the_SignIn_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136011600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter username as \"user3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user3\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288763600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter password as \"pass3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass3\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85009300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on SIGN IN button",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_click_on_SIGN_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3289476700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I close the browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Microcenter Sign In validation",
+    "description": "",
+    "id": "microcenter-sign-in-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/micro/features/SIgnInPage.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9473915600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have to open chrome browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_have_to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1243281400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am in Microcenter home page",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_am_in_Microcenter_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2694863600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the \"Services\" link from the navigation menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.i_click_on_the_link_from_the_navigation_menu(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-06-24T00:42:44.769Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "View available tech services",
+        "description": "",
+        "id": "micro-center-services-page-functionality;view-available-tech-services",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.micro.steps.Hooks.runAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d137.0.7151.120)\nBuild info: version: \u00274.22.0\u0027, revision: \u0027c5f3146703*\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002719\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4ea4365b242d74aee06d18e249119089, clickElement {id\u003df.E5943B4A6B07D69084FA9DE3F9D6A0ED.d.3EAFA8D7BCF3C167AE2B1F2AD22CF00A.e.37092}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\\Users\\mdrhm\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59568/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (4ea4365b242d74aee06d18e249119089)] -\u003e xpath: //a[@id\u003d\u0027midLvl24724\u0027]]\nSession ID: 4ea4365b242d74aee06d18e249119089\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)\r\n\tat com.micro.pages.ServicesPage.clickOnCheckRepairStatusButton(ServicesPage.java:33)\r\n\tat com.micro.steps.StepDefinition.i_scroll_down_to_the_section(StepDefinition.java:447)\r\n\tat ✽.I scroll down to the \"Check Repair Status\" section(file:///C:/Users/mdrhm/OneDrive/Desktop/OSA0820202325A/BDD_Cucumber_Micro_Project/src/test/java/com/micro/features/ServicesPage.feature:16)\r\n",
+              "duration": 30095071100,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "I scroll down to the \"Check Repair Status\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Check Repair Status\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.micro.steps.StepDefinition.i_scroll_down_to_the_section(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I should see the Service Oder Status Logo",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_should_see_the_Service_Oder_Status_Logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "click on Schedule service",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Schedule_service()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "click on All service \u0026 Repair",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_All_service_Repair()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "click on Computer Repair",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Computer_Repair()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "click on Brands we service",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Brands_we_service()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "click on Laptop Battery Replacement",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Laptop_Battery_Replacement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "click on Laptop Screen replacement",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Laptop_Screen_replacement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "click on Apple Certified Repair",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Apple_Certified_Repair()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "click on GPU Trade-in Program",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_GPU_Trade_in_Program()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "click on Recycling Program",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Recycling_Program()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "click on Virus Removal",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Virus_Removal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "click on Data Recovery",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Data_Recovery()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "click on Custom Bill PCS",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Custom_Bill_PCS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "click on Service FAQs",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.click_on_Service_FAQs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I close the browser",
+            "match": {
+              "location": "com.micro.steps.StepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Micro Center Services Page Functionality",
+    "description": "  As a user\n  I want to interact with the Services page on Micro Center\n  So that I can view and schedule tech services",
+    "id": "micro-center-services-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/micro/features/ServicesPage.feature",
+    "tags": []
+  }
+]
