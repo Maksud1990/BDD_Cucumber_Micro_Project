@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'maven-3.9.6'  // The name you defined in Global Tool Config
-        jdk 'jdk-17'         // The name you defined in Global Tool Config
+        maven 'maven-3.9.9'  // The name you defined in Global Tool Config
+        jdk 'jdk-21'         // The name you defined in Global Tool Config
     }
 
     environment {

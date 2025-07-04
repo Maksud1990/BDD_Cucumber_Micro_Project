@@ -1,147 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="9" failed="6" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-28T20:32:23 EDT" name="Default suite" finished-at="2025-06-28T20:38:39 EDT" duration-ms="376564">
+  <suite started-at="2025-07-04T17:45:58 EDT" name="Default suite" finished-at="2025-07-04T17:49:40 EDT" duration-ms="221785">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-28T20:32:23 EDT" name="Default test" finished-at="2025-06-28T20:38:39 EDT" duration-ms="376564">
-      <class name="com.micro.tests.ComputersPageTest">
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:32:23 EDT" name="openB" finished-at="2025-06-28T20:32:34 EDT" duration-ms="11598" status="PASS">
+    <test started-at="2025-07-04T17:45:58 EDT" name="Default test" finished-at="2025-07-04T17:49:40 EDT" duration-ms="221785">
+      <class name="com.micro.runners.RegressionTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:45:58 EDT" name="beforeSuite" finished-at="2025-07-04T17:45:58 EDT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyOpenChromeBrowser()[pri:1, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:32:34 EDT" name="varifyOpenChromeBrowser" finished-at="2025-06-28T20:32:42 EDT" duration-ms="7750" status="PASS">
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:45:58 EDT" name="setUpClass" finished-at="2025-07-04T17:45:58 EDT" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- varifyOpenChromeBrowser -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:32:42 EDT" name="closeB" finished-at="2025-06-28T20:32:42 EDT" duration-ms="341" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:45:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:46:30 EDT" duration-ms="31923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Varify  ApplePage is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Apple page testing info"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:32:42 EDT" name="openB" finished-at="2025-06-28T20:32:56 EDT" duration-ms="13700" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:46:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:46:57 EDT" duration-ms="27290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Varify  ApplePage is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Apple page testing info"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnComputerPage()[pri:2, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:32:56 EDT" name="varifyClickOnComputerPage" finished-at="2025-06-28T20:32:56 EDT" duration-ms="189" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:46:57 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:47:29 EDT" duration-ms="31826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User navigates to Computers page, filters by Desktop Computers, and adds a product to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Computers Page Functionality on Micro Center"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- varifyClickOnComputerPage -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:32:56 EDT" name="closeB" finished-at="2025-06-28T20:32:57 EDT" duration-ms="335" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:47:29 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:47:43 EDT" duration-ms="13415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Microcenter home page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MicroCenter Home Page feature"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:32:57 EDT" name="openB" finished-at="2025-06-28T20:33:06 EDT" duration-ms="9133" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:47:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:48:03 EDT" duration-ms="20647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add the first PC part listed to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Browse and add PC Parts on Micro Center"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyComputerPageTitle()[pri:3, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:06 EDT" name="varifyComputerPageTitle" finished-at="2025-06-28T20:33:06 EDT" duration-ms="20" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:48:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:48:21 EDT" duration-ms="17993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Microcenter Sign in is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Sign In validation"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- varifyComputerPageTitle -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:06 EDT" name="closeB" finished-at="2025-06-28T20:33:06 EDT" duration-ms="315" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:48:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:48:39 EDT" duration-ms="17210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Microcenter Sign in is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Sign In validation"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:06 EDT" name="openB" finished-at="2025-06-28T20:33:15 EDT" duration-ms="8725" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:48:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:48:56 EDT" duration-ms="17035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Microcenter Sign in is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Sign In validation"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyComputerPageCurrentURL()[pri:4, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:15 EDT" name="varifyComputerPageCurrentURL" finished-at="2025-06-28T20:33:15 EDT" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyComputerPageCurrentURL -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:15 EDT" name="closeB" finished-at="2025-06-28T20:33:15 EDT" duration-ms="311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:15 EDT" name="openB" finished-at="2025-06-28T20:33:28 EDT" duration-ms="12787" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnComputersButton()[pri:5, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:28 EDT" name="varifyClickOnComputersButton" finished-at="2025-06-28T20:33:28 EDT" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnComputersButton -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:28 EDT" name="closeB" finished-at="2025-06-28T20:33:28 EDT" duration-ms="307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:28 EDT" name="openB" finished-at="2025-06-28T20:33:42 EDT" duration-ms="13334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnGammingDeskstopsButton()[pri:6, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:42 EDT" name="varifyClickOnGammingDeskstopsButton" finished-at="2025-06-28T20:33:42 EDT" duration-ms="225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnGammingDeskstopsButton -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:42 EDT" name="closeB" finished-at="2025-06-28T20:33:42 EDT" duration-ms="362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:42 EDT" name="openB" finished-at="2025-06-28T20:33:55 EDT" duration-ms="13170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnGammingPCButton()[pri:7, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:55 EDT" name="varifyClickOnGammingPCButton" finished-at="2025-06-28T20:33:58 EDT" duration-ms="2775" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnGammingPCButton -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:58 EDT" name="closeB" finished-at="2025-06-28T20:33:59 EDT" duration-ms="356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:33:59 EDT" name="openB" finished-at="2025-06-28T20:34:10 EDT" duration-ms="11206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnAddToCardButt()[pri:8, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:34:10 EDT" name="varifyClickOnAddToCardButt" finished-at="2025-06-28T20:34:10 EDT" duration-ms="412" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnAddToCardButt -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:34:10 EDT" name="closeB" finished-at="2025-06-28T20:34:10 EDT" duration-ms="277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:34:10 EDT" name="openB" finished-at="2025-06-28T20:34:23 EDT" duration-ms="12156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnViewCardButt()[pri:9, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:34:23 EDT" name="varifyClickOnViewCardButt" finished-at="2025-06-28T20:34:25 EDT" duration-ms="2089" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnViewCardButt -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:34:25 EDT" name="closeB" finished-at="2025-06-28T20:34:25 EDT" duration-ms="262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:34:25 EDT" name="openB" finished-at="2025-06-28T20:34:36 EDT" duration-ms="11061" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnCheckoutAsGuestButton()[pri:10, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:34:36 EDT" name="varifyClickOnCheckoutAsGuestButton" finished-at="2025-06-28T20:35:06 EDT" duration-ms="30088" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:48:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:49:38 EDT" duration-ms="42852" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View available tech services"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Micro Center Services Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Checkout as Guest']"}
+              <![CDATA[element not interactable
   (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//a[normalize-space()='Checkout as Guest'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e]]>
+Command: [8a0d6c062618182f75bdef0856417255, clickElement {id=f.D725A94FB89307133A4C290D7BE43D06.d.1E9A944E32F27A477FEF9D8D3D8B48D4.e.493}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60390}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60390/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8a0d6c062618182f75bdef0856417255)] -> xpath: //a[@id='midLvl24724']]
+Session ID: 8a0d6c062618182f75bdef0856417255]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Checkout as Guest']"}
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//a[normalize-space()='Checkout as Guest'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e
+Command: [8a0d6c062618182f75bdef0856417255, clickElement {id=f.D725A94FB89307133A4C290D7BE43D06.d.1E9A944E32F27A477FEF9D8D3D8B48D4.e.493}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60390}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60390/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8a0d6c062618182f75bdef0856417255)] -> xpath: //a[@id='midLvl24724']]
+Session ID: 8a0d6c062618182f75bdef0856417255
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -152,462 +191,30 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at com.micro.pages.ComputersPage.clickOnCheckoutAsGuestButton(ComputersPage.java:38)
-at com.micro.tests.ComputersPageTest.varifyClickOnCheckoutAsGuestButton(ComputersPageTest.java:103)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+at com.micro.pages.ServicesPage.clickOnCheckRepairStatusButton(ServicesPage.java:33)
+at com.micro.steps.StepDefinition.i_scroll_down_to_the_section(StepDefinition.java:447)
+at ✽.I scroll down to the "Check Repair Status" section(file:///C:/Users/mdrhm/OneDrive/Desktop/OSA0820202325A/BDD_Cucumber_Micro_Project/src/test/java/com/micro/features/ServicesPage.feature:16)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- varifyClickOnCheckoutAsGuestButton -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:35:06 EDT" name="closeB" finished-at="2025-06-28T20:35:07 EDT" duration-ms="476" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:49:38 EDT" name="tearDownClass" finished-at="2025-07-04T17:49:40 EDT" duration-ms="1167" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:35:07 EDT" name="openB" finished-at="2025-06-28T20:35:20 EDT" duration-ms="13710" status="PASS">
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:49:40 EDT" name="afterSuite" finished-at="2025-07-04T17:49:40 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnFirstName()[pri:11, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:35:20 EDT" name="varifyClickOnFirstName" finished-at="2025-06-28T20:35:50 EDT" duration-ms="30056" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='firstname-input']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//input[@id='firstname-input'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='firstname-input']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//input[@id='firstname-input'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
-at com.micro.pages.ComputersPage.clickOnFirstName(ComputersPage.java:42)
-at com.micro.tests.ComputersPageTest.varifyClickOnFirstName(ComputersPageTest.java:111)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnFirstName -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:35:50 EDT" name="closeB" finished-at="2025-06-28T20:35:51 EDT" duration-ms="373" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:35:51 EDT" name="openB" finished-at="2025-06-28T20:36:00 EDT" duration-ms="9608" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnLastName()[pri:12, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:36:00 EDT" name="varifyClickOnLastName" finished-at="2025-06-28T20:36:30 EDT" duration-ms="30087" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='lastname-input']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//input[@id='lastname-input'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='lastname-input']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//input[@id='lastname-input'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
-at com.micro.pages.ComputersPage.clickOnLastName(ComputersPage.java:46)
-at com.micro.tests.ComputersPageTest.varifyClickOnLastName(ComputersPageTest.java:119)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnLastName -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:36:30 EDT" name="closeB" finished-at="2025-06-28T20:36:31 EDT" duration-ms="343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:36:31 EDT" name="openB" finished-at="2025-06-28T20:36:42 EDT" duration-ms="11445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnEmail()[pri:13, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:36:42 EDT" name="varifyClickOnEmail" finished-at="2025-06-28T20:37:12 EDT" duration-ms="30097" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email-input']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//input[@id='email-input'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email-input']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//input[@id='email-input'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
-at com.micro.pages.ComputersPage.clickOnEmail(ComputersPage.java:50)
-at com.micro.tests.ComputersPageTest.varifyClickOnEmail(ComputersPageTest.java:128)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnEmail -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:37:12 EDT" name="closeB" finished-at="2025-06-28T20:37:13 EDT" duration-ms="340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:37:13 EDT" name="openB" finished-at="2025-06-28T20:37:26 EDT" duration-ms="13470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnPhoneNumber()[pri:14, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:37:26 EDT" name="varifyClickOnPhoneNumber" finished-at="2025-06-28T20:37:56 EDT" duration-ms="30104" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='phone-input']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//input[@id='phone-input'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='phone-input']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//input[@id='phone-input'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
-at com.micro.pages.ComputersPage.clickOnPhoneNumber(ComputersPage.java:54)
-at com.micro.tests.ComputersPageTest.varifyClickOnPhoneNumber(ComputersPageTest.java:137)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnPhoneNumber -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:37:56 EDT" name="closeB" finished-at="2025-06-28T20:37:57 EDT" duration-ms="314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-        <test-method is-config="true" signature="openB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:37:57 EDT" name="openB" finished-at="2025-06-28T20:38:09 EDT" duration-ms="12154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openB -->
-        <test-method signature="varifyClickOnContinueButton()[pri:15, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:38:09 EDT" name="varifyClickOnContinueButton" finished-at="2025-06-28T20:38:39 EDT" duration-ms="30078" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='contact-submit']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//a[@id='contact-submit'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='contact-submit']"}
-  (Session info: chrome=137.0.7151.122)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c990fc5a036156ef85e5478ed485807e, findElement {value=//a[@id='contact-submit'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55530/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c990fc5a036156ef85e5478ed485807e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at com.micro.pages.ComputersPage.clickOnContinueButton(ComputersPage.java:59)
-at com.micro.tests.ComputersPageTest.varifyClickOnContinueButton(ComputersPageTest.java:145)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyClickOnContinueButton -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.micro.tests.ComputersPageTest@158da8e]" started-at="2025-06-28T20:38:39 EDT" name="closeB" finished-at="2025-06-28T20:38:39 EDT" duration-ms="400" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeB -->
-      </class> <!-- com.micro.tests.ComputersPageTest -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.micro.runners.RegressionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
