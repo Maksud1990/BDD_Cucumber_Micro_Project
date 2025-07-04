@@ -156,7 +156,7 @@
 
 	  		<arguments>
 
-	  			<argument>./src/test/java/com/fidelis/xmls/${testng.xml.file}</argument>
+	  			<argument>./src/test/java/com/micro/xmls/${testng.xml.file}</argument>
 
 	  		</arguments>
 
@@ -226,7 +226,7 @@
 	  		<configuration>
 	  			<testFailureIgnore>true</testFailureIgnore>	
 					<suiteXmlFiles>
-						<suiteXmlFile>./src/test/java/com/fidelis/xmls/regressionTest.xml</suiteXmlFile>
+						<suiteXmlFile>./src/test/java/com/micro/xmls/regressionTest.xml</suiteXmlFile>
 					</suiteXmlFiles>
 	  		</configuration>
 	  	</plugin>
