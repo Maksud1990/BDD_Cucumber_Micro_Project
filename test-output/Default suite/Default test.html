@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 06 13:26:03 EDT 2025</td>
+<td>Started on:</td><td>Sun Jul 06 18:21:46 EDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>229 seconds (229888 ms)</td>
+<tr><td>Total time:</td><td>93 seconds (93078 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.micro.runners.RegressionTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.RegressionTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View available tech services", "Micro Center Services Page Functionality"</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+<td title='com.micro.runners.SmokeTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.SmokeTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on “Learn More” button", "Micro Center Priority Care Page Functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;hideUnlimited&apos;]&quot;}
   (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0afdf7e8498931e7a469abb3051e5855, clickElement {id=f.BEB4E20C8E9816209801E9C124BB43B1.d.99BD03CB3F0208C8872C852A2E294088.e.36425}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (0afdf7e8498931e7a469abb3051e5855)] -&gt; xpath: //a[@id=&apos;midLvl24724&apos;]]
-Session ID: 0afdf7e8498931e7a469abb3051e5855
+Command: [25bda89ec7fdf7155f77939a3b28118f, findElement {value=//span[@class=&apos;hideUnlimited&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52180/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25bda89ec7fdf7155f77939a3b28118f
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -95,25 +95,26 @@ Session ID: 0afdf7e8498931e7a469abb3051e5855
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
-	at com.micro.pages.ServicesPage.clickOnCheckRepairStatusButton(ServicesPage.java:33)
-	at com.micro.steps.StepDefinition.i_scroll_down_to_the_section(StepDefinition.java:447)
-	at ✽.I scroll down to the &quot;Check Repair Status&quot; section(file:///C:/Users/mdrhm/OneDrive/Desktop/OSA0820202325A/BDD_Cucumber_Micro_Project/src/test/java/com/micro/features/ServicesPage.feature:16)
-</pre></div><a href='#' onClick='toggleBox("stack-trace289592183", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace289592183'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+	at com.micro.pages.PriorityCarePage.clickOnTechSupport(PriorityCarePage.java:36)
+	at com.micro.steps.StepDefinition.i_click_the_Unlimited_In_Store_Remote_Tech_Support_button_under_any_benefit(StepDefinition.java:610)
+	at ✽.I click the Unlimited In-Store &amp; Remote Tech Support button under any benefit(file:///C:/Users/mdrhm/OneDrive/Desktop/OSA0820202325A/BDD_Cucumber_Micro_Project/src/test/java/com/micro/features/PriorityCarePage.feature:20)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1715189999", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1715189999'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;hideUnlimited&apos;]&quot;}
   (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0afdf7e8498931e7a469abb3051e5855, clickElement {id=f.BEB4E20C8E9816209801E9C124BB43B1.d.99BD03CB3F0208C8872C852A2E294088.e.36425}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (0afdf7e8498931e7a469abb3051e5855)] -&gt; xpath: //a[@id=&apos;midLvl24724&apos;]]
-Session ID: 0afdf7e8498931e7a469abb3051e5855
+Command: [25bda89ec7fdf7155f77939a3b28118f, findElement {value=//span[@class=&apos;hideUnlimited&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52180/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25bda89ec7fdf7155f77939a3b28118f
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -124,18 +125,19 @@ Session ID: 0afdf7e8498931e7a469abb3051e5855
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
-	at com.micro.pages.ServicesPage.clickOnCheckRepairStatusButton(ServicesPage.java:33)
-	at com.micro.steps.StepDefinition.i_scroll_down_to_the_section(StepDefinition.java:447)
-	at ✽.I scroll down to the &quot;Check Repair Status&quot; section(file:///C:/Users/mdrhm/OneDrive/Desktop/OSA0820202325A/BDD_Cucumber_Micro_Project/src/test/java/com/micro/features/ServicesPage.feature:16)
+	at com.micro.pages.PriorityCarePage.clickOnTechSupport(PriorityCarePage.java:36)
+	at com.micro.steps.StepDefinition.i_click_the_Unlimited_In_Store_Remote_Tech_Support_button_under_any_benefit(StepDefinition.java:610)
+	at ✽.I click the Unlimited In-Store &amp; Remote Tech Support button under any benefit(file:///C:/Users/mdrhm/OneDrive/Desktop/OSA0820202325A/BDD_Cucumber_Micro_Project/src/test/java/com/micro/features/PriorityCarePage.feature:20)
 </pre></div></td>
-<td>42</td>
-<td>com.micro.runners.RegressionTest@294425a7</td></tr>
+<td>39</td>
+<td>com.micro.runners.SmokeTest@294425a7</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -145,45 +147,20 @@ Session ID: 0afdf7e8498931e7a469abb3051e5855
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.micro.runners.RegressionTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.RegressionTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Varify  ApplePage is working or not", "Microcenter Apple page testing info"</td>
-<td></td>
-<td>30</td>
-<td>com.micro.runners.RegressionTest@294425a7</td></tr>
-<tr>
-<td title='com.micro.runners.RegressionTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.RegressionTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Varify  ApplePage is working or not", "Microcenter Apple page testing info"</td>
-<td></td>
-<td>30</td>
-<td>com.micro.runners.RegressionTest@294425a7</td></tr>
-<tr>
-<td title='com.micro.runners.RegressionTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.RegressionTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigates to Computers page, filters by Desktop Computers, and adds a product to the cart", "Computers Page Functionality on Micro Center"</td>
-<td></td>
-<td>32</td>
-<td>com.micro.runners.RegressionTest@294425a7</td></tr>
-<tr>
-<td title='com.micro.runners.RegressionTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.RegressionTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Microcenter home page title", "MicroCenter Home Page feature"</td>
-<td></td>
-<td>12</td>
-<td>com.micro.runners.RegressionTest@294425a7</td></tr>
-<tr>
-<td title='com.micro.runners.RegressionTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.RegressionTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add the first PC part listed to the cart", "Browse and add PC Parts on Micro Center"</td>
-<td></td>
-<td>25</td>
-<td>com.micro.runners.RegressionTest@294425a7</td></tr>
-<tr>
-<td title='com.micro.runners.RegressionTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.RegressionTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Microcenter Sign in is working or not", "Microcenter Sign In validation"</td>
+<td title='com.micro.runners.SmokeTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.SmokeTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Apple page title", "Microcenter Apple page testing info"</td>
 <td></td>
 <td>18</td>
-<td>com.micro.runners.RegressionTest@294425a7</td></tr>
+<td>com.micro.runners.SmokeTest@294425a7</td></tr>
 <tr>
-<td title='com.micro.runners.RegressionTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.RegressionTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Microcenter Sign in is working or not", "Microcenter Sign In validation"</td>
+<td title='com.micro.runners.SmokeTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.SmokeTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Microcenter home page title", "MicroCenter Home Page feature"</td>
 <td></td>
-<td>17</td>
-<td>com.micro.runners.RegressionTest@294425a7</td></tr>
+<td>14</td>
+<td>com.micro.runners.SmokeTest@294425a7</td></tr>
 <tr>
-<td title='com.micro.runners.RegressionTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.RegressionTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Microcenter Sign in is working or not", "Microcenter Sign In validation"</td>
+<td title='com.micro.runners.SmokeTest.runScenario()'><b>runScenario</b><br>Test class: com.micro.runners.SmokeTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Microcenter Sign in is working or not", "Microcenter Sign In validation"</td>
 <td></td>
-<td>17</td>
-<td>com.micro.runners.RegressionTest@294425a7</td></tr>
+<td>19</td>
+<td>com.micro.runners.SmokeTest@294425a7</td></tr>
 </table><p>
 </body>
 </html>

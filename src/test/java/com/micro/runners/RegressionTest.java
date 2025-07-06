@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 		tags={"@regression"},
 		plugin = {"json:target/cucumber-reports/Cucumber.json","pretty","de.monochromata.cucumber.report.PrettyReports:target/cucumber","html:target/pretty-cucumber"}
 		//strict = true
-		//dryRun=true
+		//dryRun=false
 		//tags= {"@Login"}
 		
 		)
