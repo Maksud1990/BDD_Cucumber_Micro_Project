@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-06T05:42:19 EDT" name="Suite" finished-at="2025-07-06T05:46:18 EDT" duration-ms="238868">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-06T05:42:19 EDT" name="Test" finished-at="2025-07-06T05:46:18 EDT" duration-ms="238868">
+      <class name="com.micro.runners.RegressionTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:42:19 EDT" name="beforeSuite" finished-at="2025-07-06T05:42:19 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:42:19 EDT" name="setUpClass" finished-at="2025-07-06T05:42:20 EDT" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:42:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T05:42:50 EDT" duration-ms="30548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Varify  ApplePage is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Apple page testing info"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:42:50 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T05:43:26 EDT" duration-ms="36355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Varify  ApplePage is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Apple page testing info"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:43:26 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T05:44:04 EDT" duration-ms="37342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User navigates to Computers page, filters by Desktop Computers, and adds a product to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Computers Page Functionality on Micro Center"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:44:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T05:44:18 EDT" duration-ms="14626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Microcenter home page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MicroCenter Home Page feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:44:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T05:44:42 EDT" duration-ms="23807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add the first PC part listed to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Browse and add PC Parts on Micro Center"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:44:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T05:45:00 EDT" duration-ms="18017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Microcenter Sign in is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Sign In validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:45:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T05:45:16 EDT" duration-ms="15495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Microcenter Sign in is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Sign In validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:45:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T05:45:34 EDT" duration-ms="17932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Microcenter Sign in is working or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Microcenter Sign In validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:45:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T05:46:16 EDT" duration-ms="42675" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View available tech services"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Micro Center Services Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=137.0.7151.122)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa2bbe47f65d4932189254b5c68a653a, clickElement {id=f.DE15C916FD639EECDDDBAF11A46CF3C9.d.C72BCB17DFC1B5473473F05EBA9F02FE.e.33101}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52856}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52856/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fa2bbe47f65d4932189254b5c68a653a)] -> xpath: //a[@id='midLvl24724']]
+Session ID: fa2bbe47f65d4932189254b5c68a653a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=137.0.7151.122)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa2bbe47f65d4932189254b5c68a653a, clickElement {id=f.DE15C916FD639EECDDDBAF11A46CF3C9.d.C72BCB17DFC1B5473473F05EBA9F02FE.e.33101}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52856}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52856/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fa2bbe47f65d4932189254b5c68a653a)] -> xpath: //a[@id='midLvl24724']]
+Session ID: fa2bbe47f65d4932189254b5c68a653a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+at com.micro.pages.ServicesPage.clickOnCheckRepairStatusButton(ServicesPage.java:33)
+at com.micro.steps.StepDefinition.i_scroll_down_to_the_section(StepDefinition.java:447)
+at ✽.I scroll down to the "Check Repair Status" section(file:///C:/Users/mdrhm/OneDrive/Desktop/OSA0820202325A/BDD_Cucumber_Micro_Project/src/test/java/com/micro/features/ServicesPage.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:46:16 EDT" name="tearDownClass" finished-at="2025-07-06T05:46:18 EDT" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.micro.runners.RegressionTest@38c5cc4c]" started-at="2025-07-06T05:46:18 EDT" name="afterSuite" finished-at="2025-07-06T05:46:18 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.micro.runners.RegressionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
