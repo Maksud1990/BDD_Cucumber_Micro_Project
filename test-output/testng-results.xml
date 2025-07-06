@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-04T17:45:58 EDT" name="Default suite" finished-at="2025-07-04T17:49:40 EDT" duration-ms="221785">
+  <suite started-at="2025-07-06T13:26:03 EDT" name="Default suite" finished-at="2025-07-06T13:29:53 EDT" duration-ms="229888">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-04T17:45:58 EDT" name="Default test" finished-at="2025-07-04T17:49:40 EDT" duration-ms="221785">
+    <test started-at="2025-07-06T13:26:03 EDT" name="Default test" finished-at="2025-07-06T13:29:53 EDT" duration-ms="229888">
       <class name="com.micro.runners.RegressionTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:45:58 EDT" name="beforeSuite" finished-at="2025-07-04T17:45:58 EDT" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:26:03 EDT" name="beforeSuite" finished-at="2025-07-06T13:26:03 EDT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:45:58 EDT" name="setUpClass" finished-at="2025-07-04T17:45:58 EDT" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:26:03 EDT" name="setUpClass" finished-at="2025-07-06T13:26:03 EDT" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:45:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:46:30 EDT" duration-ms="31923" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:26:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T13:26:33 EDT" duration-ms="30297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:46:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:46:57 EDT" duration-ms="27290" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:26:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T13:27:03 EDT" duration-ms="30152" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:46:57 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:47:29 EDT" duration-ms="31826" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:27:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T13:27:36 EDT" duration-ms="32784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:47:29 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:47:43 EDT" duration-ms="13415" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:27:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T13:27:49 EDT" duration-ms="12511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:47:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:48:03 EDT" duration-ms="20647" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:27:49 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T13:28:15 EDT" duration-ms="25970" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,7 +98,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:48:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:48:21 EDT" duration-ms="17993" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:28:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T13:28:33 EDT" duration-ms="18044" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:48:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:48:39 EDT" duration-ms="17210" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:28:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T13:28:51 EDT" duration-ms="17912" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,7 +130,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:48:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:48:56 EDT" duration-ms="17035" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:28:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T13:29:09 EDT" duration-ms="17918" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,7 +146,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:48:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T17:49:38 EDT" duration-ms="42852" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:29:09 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-06T13:29:51 EDT" duration-ms="42915" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -166,10 +166,10 @@
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8a0d6c062618182f75bdef0856417255, clickElement {id=f.D725A94FB89307133A4C290D7BE43D06.d.1E9A944E32F27A477FEF9D8D3D8B48D4.e.493}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60390}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60390/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8a0d6c062618182f75bdef0856417255)] -> xpath: //a[@id='midLvl24724']]
-Session ID: 8a0d6c062618182f75bdef0856417255]]>
+Command: [0afdf7e8498931e7a469abb3051e5855, clickElement {id=f.BEB4E20C8E9816209801E9C124BB43B1.d.99BD03CB3F0208C8872C852A2E294088.e.36425}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0afdf7e8498931e7a469abb3051e5855)] -> xpath: //a[@id='midLvl24724']]
+Session ID: 0afdf7e8498931e7a469abb3051e5855]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -177,10 +177,10 @@ Session ID: 8a0d6c062618182f75bdef0856417255]]>
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8a0d6c062618182f75bdef0856417255, clickElement {id=f.D725A94FB89307133A4C290D7BE43D06.d.1E9A944E32F27A477FEF9D8D3D8B48D4.e.493}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60390}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60390/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8a0d6c062618182f75bdef0856417255)] -> xpath: //a[@id='midLvl24724']]
-Session ID: 8a0d6c062618182f75bdef0856417255
+Command: [0afdf7e8498931e7a469abb3051e5855, clickElement {id=f.BEB4E20C8E9816209801E9C124BB43B1.d.99BD03CB3F0208C8872C852A2E294088.e.36425}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\mdrhm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0afdf7e8498931e7a469abb3051e5855)] -> xpath: //a[@id='midLvl24724']]
+Session ID: 0afdf7e8498931e7a469abb3051e5855
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -206,11 +206,11 @@ at ✽.I scroll down to the "Check Repair Status" section(file:///C:/Users/mdrhm
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:49:38 EDT" name="tearDownClass" finished-at="2025-07-04T17:49:40 EDT" duration-ms="1167" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:29:51 EDT" name="tearDownClass" finished-at="2025-07-06T13:29:53 EDT" duration-ms="1148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-04T17:49:40 EDT" name="afterSuite" finished-at="2025-07-04T17:49:40 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.micro.runners.RegressionTest@294425a7]" started-at="2025-07-06T13:29:53 EDT" name="afterSuite" finished-at="2025-07-06T13:29:53 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
