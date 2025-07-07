@@ -21,7 +21,7 @@ public class Utility {
 	private static Logger log=Utility.getLog(Browser.class);
 	public static Logger getLog(Class clazz) {
 		Logger log=Logger.getLogger(clazz);
-		PropertyConfigurator.configure("\\src\\test\\resources\\Log4j.properties");
+		PropertyConfigurator.configure("src/test/resources/Log4j.properties");
 		return log;
 	}
 	public  WebDriver switchWindow() {

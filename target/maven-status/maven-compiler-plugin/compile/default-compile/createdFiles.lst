@@ -22,7 +22,6 @@ com\micro\pages\PriorityCarePage.class
 com\micro\tests\PriorityCarePageTest.class
 com\micro\runners\RegressionTest.class
 com\micro\pages\SignInPage.class
-com\micro\base\Browser1.class
 com\micro\steps\StepDefinition.class
 com\micro\tests\MCNewsPageTest.class
 com\micro\pages\MCNewsPage.class
